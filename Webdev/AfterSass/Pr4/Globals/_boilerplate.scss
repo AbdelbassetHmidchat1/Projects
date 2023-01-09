@@ -1,0 +1,20 @@
+html{
+    //padding inside and border included in the total width and height
+    box-sizing: border-box;
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(22, 22, 61);
+    color: var(hsl(0,0%,100%));
+
+
+
+    
+}

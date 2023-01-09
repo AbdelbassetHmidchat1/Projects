@@ -1,0 +1,12 @@
+@use 'sass:math';
+@function rem($pixel){
+    //16px=1rem (relative to the browser font size) 
+    @return math.div($pixel,16) + rem;
+    
+}
+@function em($pixel){
+    //16px=1rem (relative to the parent element) 
+    @return math.div($pixel,16) + em;
+    
+}
+
