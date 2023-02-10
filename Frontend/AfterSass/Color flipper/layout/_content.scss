@@ -1,0 +1,73 @@
+body{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 5px 5px 5px #888888;
+    height: 6vh;
+}
+.mode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#skyblue{
+    color: skyblue;
+}
+main{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 94vh;
+}
+.box{
+    width: 35%;
+    height: 20%;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+button{
+    width: 90px;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    border-radius: 5px;
+    padding: 0 5px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border: 1px solid black;
+    margin-top: 50px;
+    cursor: pointer;
+
+
+}
+#color,main{
+    transition: all 0.5s;
+
+}
+a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+    cursor: pointer;
+    padding: 0;
+}
+a:hover{
+    color: skyblue;
+}

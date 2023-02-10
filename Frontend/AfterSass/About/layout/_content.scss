@@ -1,0 +1,89 @@
+body{
+    font-family: 'Roboto';
+    background-color: whitesmoke;
+}
+header{
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+}
+header h1,p{
+    text-align: center;
+}
+p{
+    color:hsl(210, 22%, 49%);
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    width: 90vw;
+    margin: 0 auto;
+    grid-gap: 20px;
+
+    
+
+}
+.picture{
+    object-fit: cover;
+}
+img{
+    border-radius: 15px;
+    height: 20rem;
+
+}
+aside{
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 0;
+    align-self: flex-start;
+}
+nav{
+    background-color: lightgrey;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
+button{
+    cursor: pointer;
+    padding: 20px 20px;
+    color: black;
+    border: none;
+    background-color: lightgrey;
+    font-size: larger;
+    letter-spacing: 2px;
+    font-weight: 500;
+    transition: all 1s;
+
+
+
+}
+.bio{
+    border-top-left-radius: 15px;
+}
+.goals{
+    border-top-right-radius: 15px;
+
+}
+button:hover{
+    color: lightskyblue;
+    background-color: hsl(205, 100%, 96%);
+}
+button:focus{
+    background-color: white;
+}
+.active{
+    background-color: white;
+}
+.info{
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 30vw;
+ 
+}
+.info p{
+    text-align: left;
+    font-weight: 300;
+}

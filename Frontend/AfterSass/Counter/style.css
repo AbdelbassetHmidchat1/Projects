@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(22, 22, 61);
+  color: var(hsl(0deg, 0%, 100%));
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: clamp(1.75rem, 1rem + 2vw, 2.5rem);
+}
+
+h2 {
+  font-size: clamp(1.375rem, 0.875rem + 1.5vw, 2.25rem);
+}
+
+p {
+  font-size: 1rem;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: sans-serif;
+  color: black;
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 30px;
+}
+
+#num {
+  margin-bottom: 80px;
+  font-size: 6rem;
+}
+
+.buttons {
+  display: flex;
+}
+
+button {
+  color: #222;
+  border-radius: 5px;
+  border: 1.5px solid #222;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+  font-weight: lighter;
+  background-color: transparent;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  background-color: #222;
+}/*# sourceMappingURL=style.css.map */
